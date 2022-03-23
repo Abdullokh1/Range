@@ -7,11 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
+
+  <form class="input-group w-50" id="form">
+    <input type="text" class="form-control mb-3" maxlength="10" id="firstInput" placeholder="max 50 symbol" aria-label="Username" aria-describedby="addon-wrapping">
+    <div class="range-bg mb-5">
+      <span class="range" id="range"></span>
+    </div>
+
+    <input type="text" class="form-control mb-3"  maxlength="100" id="secondInput" placeholder="max 100 symbol" aria-label="Username" aria-describedby="addon-wrapping">
+    <div class="range-bg mb-5">
+      <span class="range" ></span>
+    </div>
+
+    <textarea class="mb-3 form-control" maxlength="1000" name="text"  cols="100" rows="5" placeholder="max 1000 symbol"></textarea>
+    <div class="range-bg mb-5">
+      <span class="range"></span>
+    </div>
+
+  </form>
 
   <script src="js/main.js"></script>
 </body>
